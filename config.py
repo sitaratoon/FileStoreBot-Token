@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8585")
 DB_URI = "mongodb+srv://sitaratoons:sitaratoons@cluster0.98nq3.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.co")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "bb19246271be2273550dd1c3817ebda087e6c01b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_download_ST")
